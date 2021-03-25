@@ -1,14 +1,15 @@
+import './src/pages/homepage.dart';
+
 import 'package:flutter/material.dart';
-import 'package:pr04/src/pages/homepage_alternativo.dart';
- 
+
 void main() => runApp(MyApp());
- 
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'listTile APP',
-      home: HomePageAlternativo()
-    );
+        title: 'Componentes APP',
+        debugShowCheckedModeBanner: false,
+        home: HomePage());
   }
 }
